@@ -1,0 +1,38 @@
+*{
+    font-family: Silkscreen;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+body{
+    background-color: red; 
+}
+
+h1{
+    font-size: 250 px;
+}
+
+.header{
+    color: red;
+
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+   
+}
+
+.ul__footer{
+
+    margin: 10px;
+    
+}
+/*
+body footer{
+    background-color: black;
+    color: white;
+
+}*/
