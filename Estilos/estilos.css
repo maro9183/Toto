@@ -1,12 +1,14 @@
 *{
-    font-family: Silkscreen;
+    font-family: DynaPuff;
     padding: 0px;
     margin: 0px;
     color: white;
 }
 
 body{
-    background-color: red; 
+    background-color: red;
+    width: 99%;
+   height: fit-content; 
 }
 
 h1{
@@ -15,31 +17,40 @@ h1{
 
 .header{
     color: red;
-
+    width: 99%;
+    height: fit-content; 
 }
 
 .footer{
+    width: 99%;
+    height: fit-content;
     display: flex;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
     background-color: black;
     color: white;
-   
+    
 }
 
 .ul__footer{
     display: flex;
     flex-direction: column;
-    
+
     
     
     margin: 10px;
     
 }
-/*
-body footer{
-    background-color: black;
-    color: white;
 
-}*/
+footer p{
+    display: flex;
+    align-content:flex-end;    
+    align-self:flex-end;
+    justify-content:right;
+
+
+    
+
+
+}
