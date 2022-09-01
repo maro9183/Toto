@@ -36,7 +36,9 @@ h1{
 .ul__footer{
     display: flex;
     flex-direction: column;
-
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
     
     
     margin: 10px;
